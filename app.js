@@ -1,5 +1,5 @@
 import {stats,results,resultLabel,troopClasses,greenskins,unitRows,compareRows} from './model.mjs';
-import {esc,header} from './ui.js';
+import {esc,header} from './ui.js?v=consulta';
 const app=document.querySelector('#app');let data,localEditor=false;
 const filters={search:'',troopClass:'',greenskinType:'',sort:'name',direction:1};
 const battleFilters={search:'',sort:'date',direction:-1};
